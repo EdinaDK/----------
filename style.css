@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+
+body {
+    font-family: "Mulish";
+}
+
+span {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 20px 0px 0px 50px;
+}
+
+span:hover {
+    color:#f0be08;  
+    transition: all 0.2s ease;
+}
+
+ul {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+ul li:nth-child(odd) {
+    background: linear-gradient(90deg, rgba(230,240,127,0.838797945936187) 26%, rgba(233,154,124,0.78837777786896) 100%);
+}
+
+ul li {
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(230,240,127,0.6713060224089635) 26%, rgba(233,187,124,0.5032387955182073) 100%);
+    list-style-type: none;
+    margin: 0;
+    padding: 10px
+}
+
+ul li:hover {
+background-color: #fbd62a;
+}
+
+body {
+text-align: center;
+}
+
+#form {
+    margin: 15px
+}
+
+#form button {
+    border: 1px solid yellow;
+    padding: 2px;
+    width: 100px;
+    background-color: rgb(245, 245, 184);
+    border-radius: 20px;
+}
+
+#form input {
+    border: 1px solid yellow;
+    padding: 2px 10px 2px 10px;
+    width: 250px;
+    background-color: rgb(245, 245, 184);
+    border-radius: 20px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 10px 16px 10px 16px;
+}
+
+.close:hover {
+    background-color: #9c1e02;
+    color: white;
+}
+
+ul li.completed {
+    text-decoration: line-through;
+    background: linear-gradient(90deg, rgba(236, 199, 81, 0.951) 26%, rgba(2, 14, 245, 0.945) 100%);
+}
+
+ul li.hide {
+    display: none;
+}
